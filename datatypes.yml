@@ -1,0 +1,29 @@
+#* String variables (all 3 are the same)
+myself: Vishv Salvi
+fruit: "Mango"
+job: 'swe'
+
+#* Each sentence ends with a "\n"
+bio: |
+  My name is Vishv Salvi.
+  I am amazing.
+
+#* message: I can code in Java and sometimes in python
+message: >                                
+  I can code in Java
+  and sometimes in python
+
+#* Other datatypes
+
+number: 452
+marks: 99.9
+booleanValue: No #* N, n, False, false, FALSE also works
+#* same for true
+
+#* Specify the type
+integer: !!int 10     #* Integer
+newInt: !!float 3.14  #* Float
+string: !!str Hello World
+bool: !!bool TRUE
+bin: !!int 0b1010
+comm: !!int 45_000

@@ -1,0 +1,13 @@
+ Schools: 
+  -
+   name: Tesla Institute Of Technology
+   principle: Elon Musk
+   students: 
+    -
+     x name: Vishv Salvi
+      roll no: 1
+      marks: 100
+    -
+      name: Alen Turing
+      roll no: 10
+      marks: 100

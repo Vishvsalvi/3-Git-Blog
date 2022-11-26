@@ -1,0 +1,49 @@
+#* Nested sequence
+- fruits:
+  - mango
+  - banana
+  - apple
+- alsoFruits:
+  - watermelon
+  - litchi
+  - orange
+
+#* list with an empty value is called sparse list
+sparse:
+ - mango
+ -
+ -banana
+
+#* Key value pairs are called maps
+
+#* Nested mapping
+
+name: Vishv Salvi
+role: 
+  age: 19
+  job: student
+
+#* Pair: Keys with duplicate values
+pair example: !!pairs
+ - job: student
+ - job: teacher
+
+#* Dictionary !!omap
+
+People: !!omap
+ - Vishv: 
+    name: Vishv Salvi
+    age: 40
+ - Bruce:
+    name: Bruce Wayne
+    age: 40
+
+#* Reusing properties using anchors
+
+likings: &likes
+  fav fruits: mango
+  dislikes: Jamun
+
+Vishv: 
+  name: Vishv Salvi
+  <<: *likes

@@ -1,0 +1,19 @@
+#* Key value pair
+"tesla": "Car and AI company"
+1: "Vishv is no 1"
+---
+#*lists
+- apple
+- mango
+- banana
+- Apple
+---
+cities:
+ - mumbai
+ - banglore
+ - new delhi
+---
+cities: ["mumbai", "new delhi"]
+---
+{mango: "Yellow Fruit", age: 55}
+...

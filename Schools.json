@@ -1,0 +1,21 @@
+{
+    "Schools": 
+    [
+      {
+        "name": "Tesla Institute Of Technology",
+        "principle": "Elon Musk",
+        "students": [
+          {
+            "name": "Vishv Salvi",
+            "roll no": 1,
+            "marks": 100
+          },
+          {
+            "name": "Alan Turing",
+            "roll no": 10,
+            "marks": 100
+          }
+        ]
+      }
+    ]
+}
